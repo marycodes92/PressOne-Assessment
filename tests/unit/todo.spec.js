@@ -43,7 +43,6 @@ describe('Todo App', () => {
     await wrapper.find('input').trigger('keydown.enter')
 
     const errorMsg = wrapper.find('.error')
-    console.log(wrapper.html())
     expect(errorMsg.exists()).toBe(true)
     expect(errorMsg.text()).toBe('Todo cannot be empty')
   })
