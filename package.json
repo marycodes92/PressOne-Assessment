@@ -8,7 +8,7 @@
         "preview": "vite preview",
         "test": "vitest",
         "test:unit": "vitest run",
-        "test:e2e": "npx playwright test --grep @E2ETEST"
+        "test:e2e": "npx playwright test"
     },
     "dependencies": {
         "@playwright/test": "^1.52.0",
