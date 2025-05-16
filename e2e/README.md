@@ -37,6 +37,6 @@ An example CI setup would:
 - Publish results and fail the build if critical tests fail
 This supports continuous quality and early detection of defects in the development lifecycle.
 
-I have included a Github Actions flow to run the playwright test in CI. The `.yml` is located in `.github/workflows/playwright.yml` file.
+I have included a Github Actions flow to run the playwright test in CI. The `.yml` is located in `.github/workflows/test.yml` file.
 
 
