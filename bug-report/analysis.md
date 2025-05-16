@@ -13,6 +13,8 @@ However, below are my response to your question if I had found the bug, although
 - Press Enter repeatedly and quickly (2–3 times within a second).
 - Observe that the same todo appears multiple times in the list.
 - Attempt to delete one of the duplicates, multiple entries might be removed at once.
+- Test Environment 
+- Device used, OS version and browser
 
 ## Root Cause Hypothesis
 The issue might likely stem from the ID generation logic in the addTodo() function `id: Math.floor(Date.now() / 1000)`

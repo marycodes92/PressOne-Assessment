@@ -41,7 +41,7 @@ Below are the various types of testing to be carried out on the Todo app.
 ## Tools
 - Chrome Browser 
 - Playwright/JavaScript (for automation)
-- Jest (Unit test)
+- Vitest (Unit test)
 
 ## Assumptions
 - No user authentication is required.
