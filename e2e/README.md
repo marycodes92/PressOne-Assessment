@@ -20,6 +20,7 @@ When a test fails,
 
 - If it’s a test issue, I’d fix the script and commit with context.
 - If it’s a product bug, I’d assign it to the appropriate dev with full reproduction steps and evidence.
+- I can also integrate Allure-reporting, which is also a beautiful tool for reporting.
 
 ## How this fits into CI
 This test project can be easily integrated into a CI pipeline using tools like GitHub Actions, GitLab CI, Azure, etc.
